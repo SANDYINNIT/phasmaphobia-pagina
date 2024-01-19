@@ -1,0 +1,49 @@
+
+
+.column {
+    padding: 7vh;
+    margin: 0;
+    height: auto;
+    width: 36vh;
+    position: relative;
+    left: 3%;
+}
+
+.container-2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 0;
+}
+
+.fontsize {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.caption {
+    position: relative;
+}
+
+.first,
+.second,
+.third {
+    position: relative;
+}
+
+.third {
+    left: -22%;
+}
+
+.first {
+    left: 28%;
+}
+
